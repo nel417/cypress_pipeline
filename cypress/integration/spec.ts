@@ -1,4 +1,7 @@
 
+
+
+
 describe("Spec 1 tests", () => {
   it('loads examples', () => {
     cy.visit('/');
@@ -7,6 +10,8 @@ describe("Spec 1 tests", () => {
     cy.get('button').click()
     cy.get(".number-display").should('have.text', '1')
   });
+
+
 
   describe("a11y", () => {
     beforeEach(() => {

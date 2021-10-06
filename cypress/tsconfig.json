@@ -2,7 +2,9 @@
   "extends": "../tsconfig.json",
   "include": ["**/*.ts"],
   "compilerOptions": {
-    "sourceMap": false,
-    "types": ["cypress"]
+    "baseUrl": "./",
+    "target": "es5",
+    "lib": ["esnext", "dom"],
+    "types": ["cypress", "cypress-axe"]
   }
 }
