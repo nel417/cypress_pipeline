@@ -27,7 +27,6 @@ describe("Spec 1 tests", () => {
       cy.task('table', violationData)
     }
     
-
     beforeEach(() => {
       cy.injectAxe()
     })

@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "http://localhost:4200",
     "target": "es5",
     "lib": ["esnext", "dom"],
     "types": ["cypress", "cypress-axe"]
